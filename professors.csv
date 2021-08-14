@@ -1,0 +1,12 @@
+id,firstname,lastname,gender,age,discipline,salary
+1,Joanna,Fernandes,F,28,prof,111000
+2,Ryan,Parag,M,32,prof,115000
+3,Aarav,Gupta,M,29,asst. prof,90000
+4,Sumitra,Upadhyaya,F,,asst. prof,90000
+5,Chandan,Verma,M,31,asst. prof,115000
+6,Roohi,Saxena,F,26,prof,85000
+7,Pallavi,Srestha,F,28,prof,90000
+8,Vasanth,Kotilya,M,29,prof,95000
+9,Hansraj,Sahookar,M,33,asso. prof,140000
+10,Kumari,Sailuja,F,31,prof,105000
+11,Ranjan,Utkarsh,M,38,asso. prof,145000
