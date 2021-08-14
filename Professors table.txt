@@ -1,0 +1,35 @@
+--SQL Table creation
+-- create a table
+CREATE TABLE Professors (
+  ID INTEGER PRIMARY KEY,
+  firstname TEXT NOT NULL,
+  lastname TEXT NOT NULL,
+  age INTEGER NOT NULL,
+  gender TEXT NOT NULL,
+  Address TEXT NOT NULL,
+  occupation TEXT
+);
+
+-- insert some values
+INSERT INTO Professors VALUES (1, 'Ryan', 'Reynolds', 34 , 'M','Bouston','Sen. Professor');
+INSERT INTO Professors VALUES (2, 'Joanna', 'Fernandes', 28 , 'F','Houston','Asst. Professor');
+INSERT INTO Professors VALUES (3, 'Chloe', 'Anderson', 31 , 'F','Bouston','HOD');
+INSERT INTO Professors VALUES (4, 'David', 'Smith', 32 , 'M','Los Angeles','Sen. Professor');
+INSERT INTO Professors VALUES (5, 'Dhruv', 'Tiwari', 30 , 'M', 'Ahmedabad - India','Asst. Professor');
+INSERT INTO Professors VALUES (6, 'Emily', 'Adams', 29 , 'F','England','Asst. Professor');
+INSERT INTO Professors VALUES (7, 'Sylvester', 'Fernandes', 38 , 'M','Bouston','Sen. Professor');
+INSERT INTO Professors VALUES (8, 'Dave', 'Ryan', 28 , 'M', 'New York','Asst. Professor');
+INSERT INTO Professors VALUES (9, 'Riya', 'Saxena', 31 , 'F', 'Aurangabad - India','Sen. Professor');
+INSERT INTO Professors VALUES (10, 'Anthony', 'Gonsalves', 34 ,'M', 'San Diego','Sen. Professor');
+INSERT INTO Professors VALUES (11, 'Paul', 'Smith', 31 , 'M', 'Ohio','Asst. Professor');
+INSERT INTO Professors VALUES (12, 'Emilia', 'Clarke', 27 , 'F', 'Philadelphia','Asst. Professor');
+
+-- fetch some values
+SELECT * FROM Professors ORDER BY id;
+SELECT * FROM Professors WHERE gender = 'F';
+SELECT * FROM Professors WHERE gender = 'M';
+SELECT * FROM Professors ORDER BY gender , age, id;
+SELECT * FROM Professors WHERE occupation = 'HOD';
+SELECT 
+CONCAT(ID,'. ',firstname,' ',lastname,', ',age,', ',gender,', ',Address,', ',occupation)
+ AS Professor_details FROM Professors ORDER BY id;

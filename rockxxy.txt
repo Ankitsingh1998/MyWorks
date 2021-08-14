@@ -1,0 +1,19 @@
+This will not get displayed unless/until 'r' is being used.
+
+My 2 year plans:
+Sololearn selected topics complete
+SQL
+Django
+ML/AI
+Python for AI/ML
+Cloud computing
+Cyber security
+Ethical Hacking
+Flutter/Drag
+Communication Skill
+Project Management
+Tally9
+Bootstrap
+Ruby
+Swift 4
+HTML,CSS,JS,PHP

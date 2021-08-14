@@ -1,0 +1,12 @@
+#numeric functions
+print(min(1, 2, 3, 4, 0, 2, -0.1))
+print(max([1, 4, 9.58, 2, 5, 6, 8]))
+print(abs(-99))
+print(abs(-45.24))
+print(round(42.501))
+print(round(42.499))
+print(round(42.500))
+print(round(-3.501))
+print(round(-3.499))
+print(round(-3.500))
+print(sum([1, 2, 3, 4, 5]))
